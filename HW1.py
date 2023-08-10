@@ -30,7 +30,7 @@ def check_command_output(command, text, mode='Text'):
 
 
 if __name__ == '__main__':
-    if check_command_output( Команда, Текст, mode='Text или Word'):
+    if check_command_output( 'Команда', 'Текст', mode='Text или Word'):
         print("SUCCESS")
     else:
         print("FAIL")
